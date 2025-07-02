@@ -11,32 +11,27 @@ class CoursesTableSeeder extends Seeder
     {
         $courses = [
             [
-                'title' => 'مشروع 1',
-                'short_description' => 'هذا النص مثال لنص اخر يمكن استبداله',
-                'description' => 'هذا النص مثال لنص اخر يمكن استبداله',
+                'title' => 'Khoá học 1',
+                'short_description' => 'Đây là mô tả ngắn mẫu có thể thay thế',
+                'description' => 'Đây là nội dung mô tả chi tiết mẫu có thể thay thế bằng nội dung thực tế',
                 'image' => 'course1.jpg',
             ],
             [
-                'title' => 'مشروع 2',
-                'short_description' => 'هذا النص مثال لنص اخر يمكن استبداله',
-                'description' => 'هذا النص مثال لنص اخر يمكن استبداله',
+                'title' => 'Khoá học 2',
+                'short_description' => 'Đây là mô tả ngắn mẫu có thể thay thế',
+                'description' => 'Đây là nội dung mô tả chi tiết mẫu có thể thay thế bằng nội dung thực tế',
                 'image' => 'course2.jpg',
             ],
             [
-                'title' => 'مشروع 3',
-                'short_description' => 'هذا النص مثال لنص اخر يمكن استبداله',
-                'description' => 'هذا النص مثال لنص اخر يمكن استبداله',
+                'title' => 'Khoá học 3',
+                'short_description' => 'Đây là mô tả ngắn mẫu có thể thay thế',
+                'description' => 'Đây là nội dung mô tả chi tiết mẫu có thể thay thế bằng nội dung thực tế',
                 'image' => 'course3.jpg',
             ],
-
         ];
 
         foreach ($courses as $course) {
-
             Course::create($course);
-
-        }//end of foreach
-
-    }//end of run
-
-}//end of seeder
+        }
+    }
+}

@@ -131,16 +131,16 @@
             <div class="collapse navbar-collapse" id="navbar-menu">
                 <ul class="nav navbar-nav navbar-right" data-in="#" data-out="#">
                     <li>
-                        <a href="{{route('/')}}">الرئيسية</a>
+                        <a href="{{route('/')}}">@lang('site.home')</a>
                     </li>
                     <li>
-                        <a href="{{route('courses')}}">الدورات</a>
+                        <a href="{{route('courses')}}">@lang('site.courses')</a>
                     </li>
                     <li>
-                        <a href="{{route('contact-us')}}">تواصل معنا</a>
+                        <a href="{{route('contact-us')}}">@lang('site.contact_us')</a>
                     </li>
                     <li>
-                        <a href="{{route('about-us')}}">من نحن</a>
+                        <a href="{{route('about-us')}}">@lang('site.about_us')</a>
                     </li>
                     <li class="hidden-md hidden-xl hidden-lg">
                         @if (!auth()->user())

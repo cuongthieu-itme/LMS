@@ -35,11 +35,17 @@
     <script src="{{asset('assets/js/html5/respond.min.js')}}"></script>
     <![endif]-->
 
-    <!-- ========== Tajawal Google Fonts ========== -->
+    <!-- ========== Be Vietnam Pro Google Font (Vietnamese support) ========== -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
-          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <style>
+        /* Apply Vietnamese-friendly font globally */
+        body, h1, h2, h3, h4, h5, h6 {
+            font-family: 'Be Vietnam Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+        }
+    </style>
 
 </head>
 
